@@ -1,0 +1,17 @@
+# Core Libraries
+numpy==1.26.4
+opencv-python==4.9.0.80
+tqdm==4.66.4
+
+# TensorFlow (CPU or GPU as needed)
+tensorflow==2.15.0
+
+# Visualization & Logging (optional but recommended)
+matplotlib==3.8.4
+tensorboard==2.15.1
+
+# File system and compatibility utilities
+scikit-learn==1.3.2  # useful for evaluation and optional tasks
+
+# Optional: use if you're logging/debugging with colored outputs
+rich==13.7.1
