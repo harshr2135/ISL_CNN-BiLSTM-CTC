@@ -51,7 +51,36 @@ This project implements an end-to-end system for **continuous Indian Sign Langua
 
 ## ⚙️ Setup Instructions
 
-### 1. Install Dependencies
+### 🔧 Python Version
+
+> ✅ This project is tested on **Python 3.10.x**.  
+> Please ensure you're using Python 3.10.x (not 3.11 or later) to avoid compatibility issues with TensorFlow and other packages.
+
+
+### 1. Set Up Python 3.10 Virtual Environment
+
+If you're using **Windows**:
+
+```bash
+# Ensure Python 3.10 is installed
+py -3.10 -m venv venv
+venv\Scripts\activate
+```
+
+If you're using **Linux/macOS**:
+
+```bash
+# Ensure python3.10 is available
+python3.10 -m venv venv
+source venv/bin/activate
+```
+
+Then install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ```bash
 python -m venv venv
